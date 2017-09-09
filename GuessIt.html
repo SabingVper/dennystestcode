@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+ <head>
+  <title>Guess It - Best Website!</title>
+  <meta charset="UTF-8" />
+  <meta name="author" content="Ryan Sturgess" />
+  <link rel="stylesheet" href="GuessIt.css" />
+  </head>
+  <body>
+   <main>
+    <header>
+     <h1>Guess It!</h1>
+     <h3>Weekly Guess It!</h3>
+    </header>
+    <h4>This Week's Weekly Guess Is "How Long Has This Been Running For?"</h4>
+    <form action="GuessIt.php" method="post">
+    <fieldset>
+    First name:<br>
+    <input type="text" name="firstname"><br>
+    Last name:<br>
+    <input type="text" name="lastname">
+    <br />
+    <input type="radio" name="questions" value="22wks">22 Weeks
+    <input type="radio" name="questions" value="1wk">First Week
+    <input type="radio" name="questions" value="13wk">13 Weeks
+    <input type="radio" name="questions" value="18wk">18 Weeks
+    <br />
+    <br />
+    <input type="submit" value="Submit">
+    </fieldset>
+    </form>
+   </main>
+  </body>
+</html>
